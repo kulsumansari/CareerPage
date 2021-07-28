@@ -1,0 +1,412 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat,sans-serif;
+}
+
+body .red-line {
+  width: 100px;
+  height: 50px;
+  border-bottom: 5px solid red;
+  margin-bottom: 10px;
+}
+
+body h1 {
+  margin: 20px 10px;
+}
+
+body .btn {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+  background-color: #0069d9;
+  padding: 10px 30px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+body .btn:hover {
+  background-color: #065ab4;
+}
+
+/* navigation */
+.navigation {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 12vh;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.navigation .company-logo {
+  width: 180px;
+}
+
+.navigation .company-logo img {
+  width: 100%;
+}
+
+.navigation .nav-container {
+  width: 90%;
+  display: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navigation .nav-item {
+  display: inline;
+  list-style: none;
+  margin: 15px;
+}
+
+.navigation .nav-item i {
+  padding: 0px 5px;
+  color: white;
+}
+
+.navigation .nav-item .nav-link {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.navigation .nav-item .nav-link:hover {
+  transition: ease;
+  border-bottom: 1px solid white;
+}
+
+.navigation .menu {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navigation .menu i {
+  color: white;
+}
+
+/* banner */
+.container {
+  width: 95%;
+  margin: 0px auto;
+}
+
+.banner-container {
+  height: 25vh;
+  background-color: black;
+}
+
+.banner-container .banner-image-container {
+  position: relative;
+  margin: 0px auto;
+  background-color: black;
+  width: 80%;
+  height: 50vh;
+}
+
+.banner-container .banner-image-container img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.banner-container .banner-heading {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.banner-container .banner-heading h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* grid-images */
+.re-team-comtainer {
+  margin-top: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.re-team-comtainer p {
+  width: 80%;
+  color: #050505;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+
+.re-team-comtainer .re-images-container {
+  width: 85%;
+  padding: 5px;
+  margin-bottom: 10vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.re-team-comtainer .re-images-container .image-container {
+  margin: 5px;
+}
+
+.re-team-comtainer .re-images-container .image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.re-team-comtainer .re-images-container .image1 {
+  grid-column: 1/6;
+  grid-row: 1/6;
+}
+
+.re-team-comtainer .re-images-container .image2 {
+  grid-column: 6/9;
+  grid-row: 1/4;
+}
+
+.re-team-comtainer .re-images-container .image3 {
+  grid-column: 6/9;
+  grid-row: 4/6;
+}
+
+.re-team-comtainer .re-images-container .image4 {
+  grid-column: 9/13;
+  grid-row: 1/3;
+}
+
+.re-team-comtainer .re-images-container .image5 {
+  grid-column: 9/13;
+  grid-row: 3/6;
+}
+
+/*Browse Jobs*/
+.browse-jobs {
+  height: 70vh;
+  background-color: #f6f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.browse-jobs .job-form label {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.browse-jobs .job-form select {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.2rem;
+}
+
+.browse-jobs .result-row-1, .browse-jobs .result-row-2 {
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #b5b8b8;
+}
+
+.browse-jobs .result-row-1 .job-department, .browse-jobs .result-row-2 .job-department {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.browse-jobs .result-row-1 .job-count span, .browse-jobs .result-row-2 .job-count span {
+  font-weight: 800;
+}
+
+.browse-jobs .result-row-2 .job-title a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0069d9;
+}
+
+/* Footer */
+.footer {
+  height: 60vh;
+  background-color: #181717;
+  color: white;
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h2 {
+  font-weight: bolder;
+}
+
+.footer .btn {
+  margin: 40px 0px;
+  font-size: 16px;
+}
+
+.footer .footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .footer-bottom .footer-content {
+  width: 60vw;
+}
+
+.footer .footer-bottom .footer-content .additional-link {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: white;
+  line-height: 2.5rem;
+  margin: 0px 5px;
+}
+
+.footer .footer-bottom .footer-content .additional-link:hover {
+  transition: 0.2s ease;
+  border-bottom: 0.5px solid white;
+}
+
+.footer .footer-bottom .footer-content p {
+  font-size: 12px;
+}
+
+.footer .footer-bottom .footer-content img {
+  width: 70px;
+  padding-top: 20px;
+}
+
+.footer .footer-bottom .footer-links a {
+  text-decoration: none;
+}
+
+.footer .footer-bottom .footer-links i {
+  color: white;
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+
+/* media-queries */
+@media (max-width: 1024px) {
+  .navigation .nav-container {
+    display: none;
+  }
+  .navigation .menu {
+    display: unset;
+  }
+  .banner-container .banner-heading {
+    left: 20%;
+  }
+  .banner-container .banner-image-container {
+    width: 90%;
+  }
+  .re-team-comtainer h1 {
+    text-align: center;
+  }
+  .re-team-comtainer p {
+    width: 100%;
+  }
+  .re-team-comtainer .re-images-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-container {
+    width: 100%;
+  }
+  .banner-container .banner-image-container {
+    width: 100%;
+    height: 40vh;
+  }
+  .banner-container .banner-heading {
+    top: 50%;
+    left: 0%;
+    height: 10vh;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+  }
+  .banner-container .banner-heading h1 {
+    font-size: 1.5rem;
+  }
+  .footer {
+    height: 65vh;
+    text-align: center;
+  }
+  .footer .footer-bottom {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .footer .footer-bottom .footer-links {
+    padding: 10px;
+  }
+  .footer .footer-bottom .footer-content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 481px) {
+  .re-team-comtainer h1 {
+    font-size: 1.5rem;
+  }
+  .re-team-comtainer .re-images-container {
+    grid-template-rows: repeat(16, 1fr);
+  }
+  .re-team-comtainer .re-images-container .image1 {
+    grid-column: 1/13;
+    grid-row: 1/5;
+  }
+  .re-team-comtainer .re-images-container .image2 {
+    grid-column: 1/13;
+    grid-row: 5/9;
+  }
+  .re-team-comtainer .re-images-container .image3 {
+    grid-column: 1/13;
+    grid-row: 9/12;
+  }
+  .re-team-comtainer .re-images-container .image4 {
+    grid-column: 1/13;
+    grid-row: 12/14;
+  }
+  .re-team-comtainer .re-images-container .image5 {
+    grid-column: 1/13;
+    grid-row: 14/17;
+  }
+  .browse-jobs .result-row-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .browse-jobs .result-row-2 .job-datetime {
+    padding-top: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

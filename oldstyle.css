@@ -1,0 +1,182 @@
+/* // .company-logo{
+    //     width:180px;
+    //     img{
+    //         width:100%; 
+    //     }
+    // }
+    // .company-logo img{
+    //     width:100%; 
+    // }
+    
+    // .nav-item{
+    //     display: inline;
+    //     list-style: none;
+    
+    // }
+    // .nav-link,.btn{
+    //     text-decoration: none;
+    //     font-size: 14px;
+    //     font-weight: bold;
+    //     /* padding: 5px; 
+    //     color: white;
+    // }
+    // .nav-item i{
+    //     padding: 5px;
+    //     color: white;
+    // }
+    
+    // .nav-link:hover{
+    //     transition: ease;
+    //     border-bottom: 1px solid white;  
+    // }
+    
+    // .btn
+    // {
+    //     background-color:#0069d9;;
+    //     padding: 10px 20px;
+    //     border-radius:50px;
+    //     text-align: center; 
+    // }
+    // .btn:hover{
+    //     background-color: #065ab4;
+    // }
+    // .nav-container{
+    //     /* border:2px solid black; 
+    //     width: 70%;
+    //     display: flex;
+    //     justify-content: flex-end;
+    //     align-items: center;
+    //     flex-wrap: wrap;
+    // }
+    // .nav-item{
+    //     display: inline;
+    //     list-style: none;
+    //     margin: 25px;
+    // } */
+    /* // .banner-image-container{
+        //     position: relative;
+        //     margin: 0px auto;
+        //     background-color: black;
+        //     width:75%;
+        //     height: 200%;
+            
+        // }
+        // .banner-image-container img{
+        //     height:100%;
+        //     width:100%;
+        //     opacity:0.8;  
+        // }
+        // .banner-heading{
+        //     position: absolute;
+        //     top: 30%;
+        //     left: 30%;  
+        //     /* border: solid red; 
+        //     color: white;
+        //     font-size: 2.8rem;
+        //     font-weight: bold;
+            
+        // } */
+        /* .job-form label{
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        select{
+            width: 100%;
+            height:50px;
+            margin-top: 10px;
+            cursor: pointer;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 1.2rem;
+        }
+        .results{
+            padding: 30px 0px;
+            border-bottom: 1px solid #b5b8b8;
+        }
+        // .job-form label{
+            //     font-weight: bold;
+            //     font-size: 1.2rem;
+            // }
+            // select{
+            //     width: 100%;
+            //     height:50px;
+            //     margin-top: 10px;
+            //     cursor: pointer;
+            //     padding-left: 20px;
+            //     padding-right: 20px;
+            //     font-size: 1.2rem;
+            // }
+            // .results{
+            //     padding: 30px 0px;
+            //     border-bottom: 1px solid #b5b8b8;
+            // }
+            // .results div{
+            //     display: inline-block;
+            // }
+            // .job-department{
+            //     font-size: 1.5rem;
+            //     font-weight: bolder;
+            // }
+            // .job-title a{
+            //     font-size: 1.2rem;
+            //     font-weight: bold;
+            //     color:#0069d9;
+            // }
+            
+            // .job-count,
+            // .job-datetime{
+            //     position: relative;
+            //     float: right;
+            // }
+            // .job-count span{
+            //     font-weight: 800;
+            // } */
+/* 
+            footer{
+                height: 60vh;
+                background-color: $blackColor;
+                color: $whiteColor;
+                padding: 100px 50px;
+                @include flex-placement(column,center,center);
+                h2{
+                    font-weight:bolder;
+                }
+                .btn{
+                    margin: 20px 0px;
+                }
+                .footer-bottom{
+                    @include flex-placement(row,space-between,center);
+                    .footer-content{
+                        width: 60vw;
+                        // border: solid white;
+                        a{
+                            text-decoration: none;
+                            font-size: 0.8rem;
+                            color: $whiteColor;
+                            margin-right: 20px;
+                            line-height: 2.5rem;
+                            &:hover{
+                                transition: 0.2s ease;
+                                border-bottom:0.5px solid $whiteColor;
+                            }
+                        }
+                        p{
+                            font-size:$x-sm-font;
+                            line-height: 2.5rem;
+                        }
+                        img{
+                            width:70px;
+                        }
+                    }
+                    .footer-links{
+                        a{
+                            text-decoration: none;
+                        }
+                        i{
+                            color: $whiteColor;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            } */
+            
